@@ -1,0 +1,73 @@
+@media screen and (max-width: 620px) {
+    .logo_name {
+        display: block;
+        font-size: 16px;
+    }
+
+    .nav_button,
+    .nav_button a {
+        font-size: 9px;
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .nav_links {
+        position: relative;
+    }
+
+    .nav_links .close_menu {
+        display: none;
+    }
+
+    .nav_links .open_menu {
+        display: flex;
+    }
+
+    .nav_links .open_menu .close {
+        display: none;
+    }
+
+    .nav_links .dropdown_cont {
+        display: none;
+    }
+
+    .open_menu,
+    .close_menu {
+        display: flex;
+        border: none;
+        outline: none;
+        padding: 8px;
+        font-size: 24px;
+        border-radius: 4px;
+        background: #685d5d;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .dropdown_cont {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -calc(90% - 100px);
+    }
+
+    .dropdown_cont:hover .open_menu {
+        /* display: none; */
+        position: absolute;
+    }
+
+    .nav_button,
+    .nav_button a {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    .btn_min_scr {
+        display: block;
+    }
+
+    .btn_mx_scr {
+        display: none;
+    }
+}
