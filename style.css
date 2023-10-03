@@ -5,7 +5,7 @@ html {
 }
 
 * {
-    padding: 100;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'inter';
@@ -17,6 +17,7 @@ li {
 }
 
 a {
+    font-size: 32px;
     text-decoration: none;
     outline: none;
     font-family: 'inter', sans-serif;
